@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 60px;
+  gap: 30px;
+  margin: 0;
+}
+footer p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 143%;
+  color: white;
+  font-family: Montserrat;
+  text-align: center;
+}
+.home-logo {
+  color: white;
+}
+
+@media (max-width: 375px) {
+  footer p {
+    font-size: 12px;
+  }
+}
