@@ -35,12 +35,22 @@ export default function Slideshow() {
           </button>
         </>
       )}
-
-      <img
-        src={logement.pictures[index]}
-        alt={`${logement.title} ${index + 1}`}
-        className="image-logement"
-      />
+      <div
+        className="slideshow-track"
+        style={{ transform: `translateX(-${index * 100}%)` }}
+      >
+        {logement.pictures.map((src, i) => (
+          <img
+            key={i}
+            src={src}
+            alt={`${logement.title} ${i + 1}`}
+            className="image-logement"
+          />
+        ))}
+      </div>
+      <span>
+        {index + 1} / {total}
+      </span>
     </div>
   );
 }

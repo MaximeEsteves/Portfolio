@@ -5,10 +5,15 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams } from "react-router-dom";
 import data from "../../data.json";
+import Error from "../pages/Error";
 
 export default function Logement() {
   const { id } = useParams();
   const logement = data.find((item) => item.id === id);
+
+  if (!logement) {
+    return <Error />;
+  }
   return (
     <div className="home-logement">
       <Slideshow />
