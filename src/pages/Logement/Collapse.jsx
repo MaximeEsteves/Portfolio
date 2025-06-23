@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import "./Logement.scss";
 import "../Home/Button.scss";
+import "./Collapse.scss";
 
 export default function Collapse({ titre, description }) {
   const [isOpen, setIsOpen] = useState(false);
