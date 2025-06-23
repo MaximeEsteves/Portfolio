@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import "../styles/Logement.scss";
-import "../styles/Button.scss";
+import "./Logement.scss";
+import "../Home/Button.scss";
 
 export default function Collapse({ titre, description }) {
   const [isOpen, setIsOpen] = useState(false);

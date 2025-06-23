@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import "../styles/Footer.scss";
-import Logo from "../assets/logo-kasa-white.svg";
+import "./Footer.scss";
+import Logo from "../../assets/logo-kasa-white.svg";
 
 export default function Footer() {
   return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import "../styles/Slideshow.scss";
-import data from "../../data.json";
+import "./Slideshow.scss";
+import data from "./../../../data.json";
 import {
   faChevronLeft,
   faChevronRight,

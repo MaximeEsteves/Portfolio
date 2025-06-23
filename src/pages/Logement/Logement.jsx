@@ -1,11 +1,11 @@
-import "../styles/Button.scss";
-import Collapse from "../components/Collapse";
-import Slideshow from "../components/Slideshow";
+import "../Home/Button.scss";
+import Collapse from "./Collapse";
+import Slideshow from "./Slideshow";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams } from "react-router-dom";
-import data from "../../data.json";
-import Error from "../pages/Error";
+import data from "../../../data.json";
+import Error from "../Error/Error";
 
 export default function Logement() {
   const { id } = useParams();

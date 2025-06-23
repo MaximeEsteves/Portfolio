@@ -1,7 +1,7 @@
-import "../styles/Propos.scss";
-import imageHome from "../assets/image-home-propos.png";
+import "./Propos.scss";
+import imageHome from "../../assets/image-home-propos.png";
 import Collapse from "../Logement/Collapse";
-import aboutList from "../../about.json";
+import aboutList from "../../../about.json";
 
 export default function Propos() {
   return (

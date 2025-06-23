@@ -1,8 +1,8 @@
-import "../styles/Home.scss";
-import imageHome from "../assets/image-home.png";
-import Card from "../components/Card";
+import "./Home.scss";
+import imageHome from "../../assets/image-home.png";
+import Card from "./Card";
 import { Link } from "react-router-dom";
-import data from "../../data.json";
+import data from "../../../data.json";
 
 export default function Home() {
   return (
