@@ -27,7 +27,7 @@ function Header() {
           <Link to="/">Accueil</Link>
           <a onClick={() => goToSection("projet")}>Projet</a>
           <a onClick={() => goToSection("contact")}>Contact</a>
-          <a href="/src/assets/CV_Maxime_ESTEVES.pdf">
+          <a href="/public/assets/CV_Maxime_ESTEVES.pdf">
             <FontAwesomeIcon icon={faFileInvoice} />
           </a>
         </div>
