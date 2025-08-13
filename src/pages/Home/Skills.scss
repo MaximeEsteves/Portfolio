@@ -4,7 +4,6 @@
   width: 70%;
   margin: auto;
   margin-top: 80px;
-  border: 1px solid red;
 }
 .skills-text {
   width: 60%;
@@ -14,11 +13,9 @@
   justify-content: space-between;
   .skills-text-diplome {
     width: 100%;
-    border: 1px solid red;
   }
   .skills-text-experiences {
     width: 100%;
-    border: 1px solid red;
   }
   p {
     display: flex;
@@ -57,7 +54,6 @@
   justify-content: center;
   width: 40%;
   gap: 20px;
-  border: 1px solid red;
   img {
     width: 80px !important;
     height: 80px !important;
