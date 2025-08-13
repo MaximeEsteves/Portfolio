@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "../../../public/assets/logo-em.jpg";
-import Profil from "../../../public/assets/photo-profil.png"; // ta photo de profil
+import Logo from "../../../public/logo-em.jpg";
+import Profil from "../../../public/photo-profil.png";
 import "./Header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
@@ -27,7 +27,7 @@ function Header() {
           <Link to="/">Accueil</Link>
           <a onClick={() => goToSection("projet")}>Projet</a>
           <a onClick={() => goToSection("contact")}>Contact</a>
-          <a href="/public/assets/CV_Maxime_ESTEVES.pdf">
+          <a href="/public/CV_Maxime_ESTEVES.pdf">
             <FontAwesomeIcon icon={faFileInvoice} />
           </a>
         </div>

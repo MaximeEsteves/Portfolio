@@ -6,6 +6,7 @@ import Text from "./Text";
 import Skills from "./Skills";
 import Projet from "./Projet";
 import Reseaux from "./Reseaux";
+import Photo from "/public/photo-profil.png";
 
 export default function Home() {
   const [showAll, setShowAll] = useState(false);
@@ -40,10 +41,7 @@ export default function Home() {
         
         <br><br>Je suis disponible dans la zone de 📍 Montauban (82) 📍 Toulouse (31), mais également prêt à travailler en 🖥️ 100 % distanciel ! ☺️"
         />
-        <img
-          src="/public/assets/photo-profil.png"
-          alt="Photo de profil de Maxime Esteves"
-        />
+        <img src={Photo} alt="Photo de profil de Maxime Esteves" />
       </div>
       <Reseaux />
     </div>

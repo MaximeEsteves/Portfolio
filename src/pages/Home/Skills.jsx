@@ -1,7 +1,9 @@
 import "./Skills.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGraduationCap,
+  faBriefcase,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
   return (
@@ -34,8 +36,8 @@ function Skills() {
               <span className="sous-text">Mention assez bien. (81)</span>
             </p>
           </div>
-          {/*Expérience*/}
         </div>
+
         <div className="skills-text-experiences">
           <h3>Expérience</h3>
           <div className="test">
@@ -78,151 +80,139 @@ function Skills() {
           </div>
         </div>
       </div>
+
       <div className="skills-container">
         <a
           href="https://developer.mozilla.org/fr/docs/Web/HTML"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/html-5.svg" alt="icon-HTML" />
+          <img src="/icon/html-5.svg" alt="icon-HTML" />
         </a>
         <a
           href="https://nodejs.org/fr"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/nodejs.png" alt="icon-Node.js" />
+          <img src="/icon/nodejs.png" alt="icon-Node.js" />
         </a>
         <a
           href="https://www.netlify.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/netlify.png" alt="icon-Netlify" />
+          <img src="/icon/netlify.png" alt="icon-Netlify" />
         </a>
         <a
           href="https://www.openai.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/public/assets/icon/chatGPT.png"
-            alt="icon-ChatGPT"
-            className="rotate"
-          />
+          <img src="/icon/chatgpt.png" alt="icon-ChatGPT" className="rotate" />
         </a>
         <a
           href="https://developer.mozilla.org/fr/docs/Web/CSS"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/css-3.svg" alt="icon-CSS" />
+          <img src="/icon/css-3.svg" alt="icon-CSS" />
         </a>
-
         <a
           href="https://expressjs.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/express.png" alt="icon-Express" />
+          <img src="/icon/express.png" alt="icon-Express" />
         </a>
         <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/public/assets/icon/vercel.png" alt="icon-Vercel" />
+          <img src="/icon/vercel.png" alt="icon-Vercel" />
         </a>
-
         <a
           href="https://www.claude.ai/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/claude.png" alt="icon-Claude" />
+          <img src="/icon/claude.png" alt="icon-Claude" />
         </a>
         <a
           href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/javascript.svg" alt="icon-JavaScript" />
+          <img src="/icon/javascript.svg" alt="icon-JavaScript" />
         </a>
         <a
           href="https://www.mongodb.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/mongodb.png" alt="icon-MongoDB" />
+          <img src="/icon/mongodb.png" alt="icon-MongoDB" />
         </a>
         <a href="https://render.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/public/assets/icon/render.png" alt="icon-Render" />
+          <img src="/icon/render.png" alt="icon-Render" />
         </a>
         <a
           href="https://www.figma.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/figma.png" alt="icon-Figma" />
+          <img src="/icon/figma.png" alt="icon-Figma" />
         </a>
         <a
           href="https://reactjs.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/public/assets/icon/react.svg"
-            alt="icon-React"
-            className="rotate"
-          />
+          <img src="/icon/react.svg" alt="icon-React" className="rotate" />
         </a>
         <a
           href="https://www.php.net/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/php.png" alt="icon-PHP" />
+          <img src="/icon/php.png" alt="icon-PHP" />
         </a>
         <a
           href="https://railway.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/railway.png" alt="icon-Railway" />
+          <img src="/icon/railway.png" alt="icon-Railway" />
         </a>
         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-          <img src="/public/assets/icon/github.png" alt="icon-GitHub" />
+          <img src="/icon/github.png" alt="icon-GitHub" />
         </a>
         <a
           href="https://sass-lang.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/scss.svg" alt="icon-scss" />
+          <img src="/icon/scss.svg" alt="icon-SCSS" />
         </a>
         <a
           href="https://www.mysql.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/mysql.svg" alt="icon-MySQL" />
+          <img src="/icon/mysql.svg" alt="icon-MySQL" />
         </a>
         <a
           href="https://www.webador.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/public/assets/icon/webador.svg"
-            alt="icon-Webador"
-            className="rotate"
-          />
+          <img src="/icon/webador.svg" alt="icon-Webador" className="rotate" />
         </a>
         <a
           href="https://copilot.microsoft.com/chats/Fxhe8Wgi2Xh424BUP2JNb"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/public/assets/icon/copilot.png" alt="icon-Copilot" />
+          <img src="/icon/copilot.png" alt="icon-Copilot" />
         </a>
       </div>
     </div>
   );
 }
+
 export default Skills;
