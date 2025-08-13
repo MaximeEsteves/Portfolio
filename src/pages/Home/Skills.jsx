@@ -84,21 +84,21 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/html-5.svg" alt="icon-HTML" />
+          <img src="/public/assets/icon/html-5.svg" alt="icon-HTML" />
         </a>
         <a
           href="https://nodejs.org/fr"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/nodejs.png" alt="icon-Node.js" />
+          <img src="/public/assets/icon/nodejs.png" alt="icon-Node.js" />
         </a>
         <a
           href="https://www.netlify.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/netlify.png" alt="icon-Netlify" />
+          <img src="/public/assets/icon/netlify.png" alt="icon-Netlify" />
         </a>
         <a
           href="https://www.openai.com/"
@@ -106,7 +106,7 @@ function Skills() {
           rel="noopener noreferrer"
         >
           <img
-            src="src/assets/icon/chatGPT.png"
+            src="/public/assets/icon/chatGPT.png"
             alt="icon-ChatGPT"
             className="rotate"
           />
@@ -116,7 +116,7 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/css-3.svg" alt="icon-CSS" />
+          <img src="/public/assets/icon/css-3.svg" alt="icon-CSS" />
         </a>
 
         <a
@@ -124,10 +124,10 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/express.png" alt="icon-Express" />
+          <img src="/public/assets/icon/express.png" alt="icon-Express" />
         </a>
         <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/icon/vercel.png" alt="icon-Vercel" />
+          <img src="/public/assets/icon/vercel.png" alt="icon-Vercel" />
         </a>
 
         <a
@@ -135,31 +135,31 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/claude.png" alt="icon-Claude" />
+          <img src="/public/assets/icon/claude.png" alt="icon-Claude" />
         </a>
         <a
           href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/javascript.svg" alt="icon-JavaScript" />
+          <img src="/public/assets/icon/javascript.svg" alt="icon-JavaScript" />
         </a>
         <a
           href="https://www.mongodb.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/mongodb.png" alt="icon-MongoDB" />
+          <img src="/public/assets/icon/mongodb.png" alt="icon-MongoDB" />
         </a>
         <a href="https://render.com/" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/icon/render.png" alt="icon-Render" />
+          <img src="/public/assets/icon/render.png" alt="icon-Render" />
         </a>
         <a
           href="https://www.figma.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/figma.png" alt="icon-Figma" />
+          <img src="/public/assets/icon/figma.png" alt="icon-Figma" />
         </a>
         <a
           href="https://reactjs.org/"
@@ -167,7 +167,7 @@ function Skills() {
           rel="noopener noreferrer"
         >
           <img
-            src="src/assets/icon/react.svg"
+            src="/public/assets/icon/react.svg"
             alt="icon-React"
             className="rotate"
           />
@@ -177,31 +177,31 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/php.png" alt="icon-PHP" />
+          <img src="/public/assets/icon/php.png" alt="icon-PHP" />
         </a>
         <a
           href="https://railway.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/railway.png" alt="icon-Railway" />
+          <img src="/public/assets/icon/railway.png" alt="icon-Railway" />
         </a>
         <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/icon/github.png" alt="icon-GitHub" />
+          <img src="/public/assets/icon/github.png" alt="icon-GitHub" />
         </a>
         <a
           href="https://sass-lang.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/scss.svg" alt="icon-scss" />
+          <img src="/public/assets/icon/scss.svg" alt="icon-scss" />
         </a>
         <a
           href="https://www.mysql.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/mysql.svg" alt="icon-MySQL" />
+          <img src="/public/assets/icon/mysql.svg" alt="icon-MySQL" />
         </a>
         <a
           href="https://www.webador.com/"
@@ -209,7 +209,7 @@ function Skills() {
           rel="noopener noreferrer"
         >
           <img
-            src="src/assets/icon/webador.svg"
+            src="/public/assets/icon/webador.svg"
             alt="icon-Webador"
             className="rotate"
           />
@@ -219,7 +219,7 @@ function Skills() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="src/assets/icon/copilot.png" alt="icon-Copilot" />
+          <img src="/public/assets/icon/copilot.png" alt="icon-Copilot" />
         </a>
       </div>
     </div>

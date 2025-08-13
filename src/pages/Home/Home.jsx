@@ -41,7 +41,7 @@ export default function Home() {
         <br><br>Je suis disponible dans la zone de 📍 Montauban (82) 📍 Toulouse (31), mais également prêt à travailler en 🖥️ 100 % distanciel ! ☺️"
         />
         <img
-          src="src/assets/photo-profil.png"
+          src="/public/assets/photo-profil.png"
           alt="Photo de profil de Maxime Esteves"
         />
       </div>

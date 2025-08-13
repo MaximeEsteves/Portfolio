@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
-import Logo from "../../assets/logo-em.jpg";
-import Profil from "../../assets/photo-profil.png"; // ta photo de profil
+import Logo from "../../../public/assets/logo-em.jpg";
+import Profil from "../../../public/assets/photo-profil.png"; // ta photo de profil
 import "./Header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
