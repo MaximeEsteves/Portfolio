@@ -1,0 +1,33 @@
+.contact-link {
+  border: 1px solid red;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  background: #000;
+
+  a {
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+
+    svg path {
+      fill: #fff;
+      transition: fill 0.3s;
+    }
+
+    &:hover svg path {
+      fill: #ef4444;
+    }
+  }
+}
+
+@media (max-width: 1640px) {
+  .contact-link {
+    width: 85%;
+  }
+}
+@media (max-width: 1350px) {
+  .contact-link {
+    width: 100%;
+  }
+}

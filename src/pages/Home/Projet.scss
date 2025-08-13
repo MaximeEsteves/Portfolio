@@ -1,0 +1,122 @@
+.card-home {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 180px auto;
+  gap: 120px;
+  h2 {
+    width: 100%;
+    font-size: 28px;
+  }
+  border: 1px solid red;
+}
+.red-ball {
+  position: absolute;
+  top: -13vh;
+  left: 6vw;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  //filter: blur(10px);
+  z-index: 1 !important;
+  pointer-events: none;
+  background-color: #e93232;
+  filter: blur(10px);
+}
+.card-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 0px;
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.4s,
+    transform 0.4s;
+  z-index: 9 !important;
+  opacity: 0.9 !important;
+  &.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInProjet 0.4s forwards;
+  }
+}
+@keyframes fadeInProjet {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.voir-plus-btn {
+  margin: auto;
+  display: block;
+  padding: 10px 30px;
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transform: transition 0.5s;
+  z-index: 13;
+  &:hover {
+    background: #b91c1c;
+  }
+}
+
+@media (max-width: 1640px) {
+  .card-home {
+    width: 85%;
+  }
+}
+@media (max-width: 1350px) {
+  .card-home {
+    width: 100%;
+  }
+}
+@media (max-width: 970px) {
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* au lieu de center pour éviter le resserrage */
+    gap: 16px; /* optionnel, espace entre Card et Description */
+  }
+
+  /* Card en premier, prend toute la largeur */
+  .card-wrapper > a,
+  .card-wrapper > .Card {
+    order: 2;
+    width: 100%;
+    max-width: none;
+    flex: 0 0 auto; /* pas de shrink */
+  }
+
+  /* Description ensuite, s’étend correctement */
+  .card-wrapper .Description {
+    order: 1;
+    width: 100%;
+    max-width: none;
+    flex: 0 0 auto; /* pas de shrink */
+  }
+
+  /* Styles internes du composant Description */
+  .card-description {
+    width: 100%; /* ou 90% si tu veux un peu d’air */
+    max-width: 700px; /* optionnel : limite pour de longues lignes */
+    height: auto; /* <-- remplace ton height: 80% */
+    margin: 0 auto 50px; /* centre + espace bas comme tu voulais */
+    box-sizing: border-box;
+  }
+
+  /* Sécurité : les médias/images ne dépassent pas */
+  .card-description img,
+  .card-description video {
+    max-width: 100%;
+    height: auto;
+  }
+}

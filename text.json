@@ -1,0 +1,30 @@
+[
+  {
+    "titleIntroduction": "Développeur web",
+    "title": "Les Mignonneries de Nathalie",
+    "description": "Création d’un site web e-commerce d'accessoires faits main.",
+    "specifications": "HTML, CSS, JavaScript, NodeJS, Express, MongoDB, Stripe, Render, Netlify.",
+    "cover": "src/assets/image-les-mignonneries-de-nathalie.png",
+    "pictures": [
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-4.jpg",
+      "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-5.jpg"
+    ],
+    "host": {
+      "name": "Nathalie Jean",
+      "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+    },
+    "rating": "5",
+    "location": "Ile de France - Paris 17e",
+    "equipments": [
+      "Équipements de base",
+      "Micro-Ondes",
+      "Douche italienne",
+      "Frigo",
+      "WIFI"
+    ],
+    "tags": ["Batignolle", "Montmartre"]
+  }
+]

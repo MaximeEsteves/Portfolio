@@ -2,7 +2,6 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import "./Logement.scss";
-import "../Home/Button.scss";
 import "./Collapse.scss";
 
 export default function Collapse({ titre, description }) {
@@ -10,14 +9,21 @@ export default function Collapse({ titre, description }) {
 
   return (
     <div className="logement-div-trois">
-      <button className="titre-description" onClick={() => setIsOpen(!isOpen)}>
-        {titre}
-        <FontAwesomeIcon
-          icon={faChevronDown}
-          className={`chevron-icon ${isOpen ? "rotate" : ""}`}
-        />
-      </button>
-      <div className={`text-description ${isOpen ? "show" : ""}`}>
+      <div>
+        <button
+          className="titre-description"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {titre}
+          <span>
+            <FontAwesomeIcon
+              icon={faChevronDown}
+              className={`chevron-icon ${isOpen ? "rotate" : ""}`}
+            />
+          </span>
+        </button>
+      </div>
+      <div className={`text-description ${isOpen ? "" : "show"}`}>
         {Array.isArray(description) ? (
           <ul>
             {description.map((item, index) => (
@@ -25,7 +31,14 @@ export default function Collapse({ titre, description }) {
             ))}
           </ul>
         ) : (
-          <p>{description}</p>
+          <p>
+            {description.split("\n").map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+            ))}
+          </p>
         )}
       </div>
     </div>

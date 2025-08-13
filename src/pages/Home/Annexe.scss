@@ -1,0 +1,31 @@
+/* src/components/Annexe/Annexe.scss */
+.annexe {
+  z-index: 1;
+  h3 {
+    font-size: 28px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+}
+
+.annexe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 62px 0px;
+  margin: auto;
+  justify-content: space-between;
+  img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.9 !important;
+  }
+}
+
+@media (max-width: 1306px) {
+  .annexe-grid {
+    justify-content: center;
+  }
+}

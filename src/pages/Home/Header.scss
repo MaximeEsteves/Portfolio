@@ -1,5 +1,10 @@
 .home-logo {
   height: 70px;
+  transition: 0.5s;
+  &:hover {
+    transform: rotate(90deg) !important;
+    transition: 0.5s;
+  }
 }
 
 .nav-contenair {
@@ -7,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 100%;
   margin: auto;
 }
 
@@ -17,10 +22,55 @@
   font-size: 24px;
   margin: 20px;
   font-weight: 500;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 .nav-link a:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.logo-wrapper {
+  position: relative;
+  display: inline-block;
+
+  .profile-hover {
+    display: flex;
+    position: absolute;
+    top: 46%;
+    left: 98%;
+    transform: translateY(-50%);
+    background: #fafafa;
+    padding: 9px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: -1;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 0.5s ease,
+      transform 0.5s ease;
+  }
+
+  .profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: black !important;
+  }
+
+  &:hover .profile-hover {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(-50%); /* petit décalage d'apparition */
+  }
 }
 
 @media (max-width: 930px) {
@@ -35,6 +85,13 @@
     margin: 0;
     margin-left: 26px;
     font-weight: 500;
+  }
+}
+@media (max-width: 425px) {
+  .logo-wrapper {
+    &:hover .profile-hover {
+      display: none;
+    }
   }
 }
 @media (max-width: 320px) {

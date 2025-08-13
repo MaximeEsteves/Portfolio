@@ -1,31 +1,34 @@
-# Kasa
+# 💻 Portfolio — Maxime Esteves
 
-Kasa est une application web de location d'appartements entre particuliers, développée avec React et Vite. Ce projet propose une interface moderne et responsive permettant de parcourir des annonces de logements, d’afficher les détails de chaque bien, ainsi que des informations sur l’hôte et les équipements disponibles.
+Bienvenue sur mon site personnel où je présente mes projets web, mes compétences techniques et mon parcours.  
+Ce portfolio est conçu comme une vitrine professionnelle, avec une mise en valeur de chaque réalisation par des démonstrations, captures d’écran et descriptions détaillées.
 
-## Fonctionnalités
+## 🎯 Objectif du site
 
-- Affichage de la liste des logements disponibles
-- Visualisation détaillée d’un logement avec galerie d’images (slideshow)
-- Système de notation et tags pour chaque logement
-- Page « À propos » présentant les valeurs de la plateforme
-- Gestion des erreurs et des routes inexistantes (404)
-- Interface responsive adaptée à tous les supports
+- Présenter mes **projets personnels et professionnels**
+- Mettre en avant mes **compétences techniques et créatives**
+- Offrir aux recruteurs et partenaires une vision claire de **mon profil et mes réalisations**
+- Servir de **base centralisée** pour mes liens professionnels (GitHub, LinkedIn, etc.)
 
-## Technologies utilisées
+## 🚀 Fonctionnalités
 
-- React 19
-- Vite
-- React Router DOM
-- FontAwesome
-- Sass (SCSS) pour le style
+- **Page d’accueil** : introduction et présentation rapide
+- **Section Projets** : liste interactive avec détails, images et liens vers les démos
+- **Navigation fluide** : transitions douces et responsive design
+- **Animations et effets visuels** pour dynamiser la présentation
+- **Contact** : formulaire ou lien direct vers mes réseaux
 
-## Lancer le projet
+## 🛠️ Stack technique
 
-1. Installer les dépendances :
-   npm install
-2. Démarrer le serveur de développement :
-   npm run dev
+- **Front-end** : HTML5, CSS3 (SCSS), JavaScript
+- **Framework** : React.js
+- **Animations** : Framer Motion
+- **Gestion d’icônes** : Font Awesome
+- **Hébergement** : Vercel
 
-## Auteur
+## 📂 Installation et exécution
 
-Maxime Esteves développeur front-end freelance
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/utilisateur/portfolio.git
+   ```

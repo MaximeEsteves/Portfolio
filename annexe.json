@@ -1,0 +1,165 @@
+[
+  {
+    "id": "a67ab8a1",
+    "titleCard": "Site web Kasa",
+    "title": "Site web Kasa",
+    "description": "Créez une application web de location immobilière avec React.",
+
+    "descriptionBis": "Réalisation du front-end d’une application web moderne en utilisant React et React Router pour créer une navigation fluide et réactive.\n Le travail a porté sur la construction de composants dynamiques, l’intégration des maquettes fournies et la gestion du routage entre les pages. Les données ont été simulées à partir d’un fichier JSON, et le projet a été initialisé avec Vite pour optimiser les performances et la configuration. \nL’environnement de développement reposait sur Node.js",
+    "specifications": "React, SCSS, JSON",
+    "cover": "/src/assets/annexe/Kasa/image-projet-kasa.png",
+    "pictures": [
+      "/src/assets/annexe/Kasa/image-kasa-1.png",
+      "/src/assets/annexe/Kasa/image-kasa-2.png",
+      "/src/assets/annexe/Kasa/image-kasa-3.png",
+      "/src/assets/annexe/Kasa/image-kasa-4.png"
+    ],
+    "host": {
+      "name": "Kasa",
+      "picture": "/src/assets/annexe/Kasa/logo-kasa.svg"
+    },
+    "rating": "Visiter le github",
+    "link": "https://github.com/MaximeEsteves/react-kasa",
+    "location": "Site location",
+    "equipments": ["REACT", "SCSS", "JSON"],
+    "tags": ["React", "Immobilier", "Location"]
+  },
+  {
+    "id": "a67ab8a2",
+    "titleCard": "Site web Mon vieux Grimoire",
+    "title": "Site web Mon vieux Grimoire",
+    "description": "Développez le back-end d'un site de notation de livres.",
+    "descriptionBis": "Création du back-end d’un site de notation de livres avec Express et MongoDB via Mongoose. \nMise en place d’une architecture MVC, développement des modèles de données et implémentation des opérations CRUD. Intégration d’un système d’authentification sécurisé, gestion et optimisation des images, calcul des notes moyennes et respect des bonnes pratiques du Green Code pour réduire l’empreinte écologique.",
+    "specifications": "NodeJS, Express, APIRest, MongoDB, Mongoose",
+    "cover": "/src/assets/annexe/mon-vieux-grimoire/image-projet-mon-vieux-grimoire.png",
+    "pictures": [
+      "/src/assets/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (1).png",
+      "/src/assets/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (6).png",
+      "/src/assets/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (5).png",
+      "/src/assets/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (4).png",
+      "/src/assets/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (3).png",
+      "/src/assets/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (2).png"
+    ],
+    "host": {
+      "name": "Mon Vieux Grimoire",
+      "picture": "/src/assets/annexe/mon-vieux-grimoire/image-logo-mon-vieux-grimoire.png"
+    },
+    "rating": "Visiter le github",
+    "link": "https://github.com/MaximeEsteves/P7-Dev-Web-livres",
+    "location": "Site web",
+    "equipments": ["NodeJS", "Express", "APIRest", "MongoDB", "Mongoose"],
+    "tags": ["Livres", "Réservation", "Notation"]
+  },
+  {
+    "id": "a67ab8a3",
+    "titleCard": "Site portfolio Nina Carducci",
+    "title": "Site portfolio Nina Carducci",
+    "description": "Débuggez et optimisez un site de photographe",
+    "descriptionBis": "Optimisation du référencement, de la performance et de l’accessibilité d’un site en tant que développeur freelance.\n Analyse des problèmes via Lighthouse et Wave, élaboration de recommandations, puis mise en œuvre d’améliorations sur la vitesse de chargement, la structure du code et le SEO. \nCréation d’un rapport comparatif avant/après avec captures d’écran et explications des impacts sur les performances et l’accessibilité.",
+    "specifications": "HTML, CSS, JavaScript, Lighthouse, Console, Google Docs",
+    "cover": "/src/assets/annexe/nina/image-projet-nina.png",
+    "pictures": [
+      "/src/assets/annexe/nina/image-nina-carducci (1).png",
+      "/src/assets/annexe/nina/image-nina-carducci (5).png",
+      "/src/assets/annexe/nina/image-nina-carducci (4).png",
+      "/src/assets/annexe/nina/image-nina-carducci (3).png",
+      "/src/assets/annexe/nina/image-nina-carducci (2).png"
+    ],
+    "host": {
+      "name": "Nina Carducci",
+      "picture": "/src/assets/annexe/nina/image-camera.png"
+    },
+    "rating": "Visiter le github",
+    "link": "https://github.com/MaximeEsteves/Nina-Carducci-Dev",
+    "location": "Site web",
+    "equipments": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Lighthouse",
+      "Console",
+      "Google Docs"
+    ],
+    "tags": ["Portfolio", "Debug", "Photographie"]
+  },
+  {
+    "id": "a67ab8a4",
+    "titleCard": "Site web Booki",
+    "title": "Site web Booki",
+    "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "descriptionBis": "Création de la page d’accueil responsive d’une agence de voyage en HTML et CSS à partir de maquettes Figma (mobile, tablette, desktop). \nIntégration manuelle du code sans recours à l’outil de génération Figma, pour renforcer la maîtrise de la structure et du style. \nDéveloppement des compétences en design responsive afin d’assurer une expérience optimale sur tous les appareils.",
+    "specifications": "HTML, CSS",
+    "cover": "/src/assets/annexe/Booki/image-projet-booki.png",
+    "pictures": [
+      "/src/assets/annexe/Booki/image-booki-1.png",
+      "/src/assets/annexe/Booki/image-booki-2.png"
+    ],
+    "host": {
+      "name": "Booki",
+      "picture": "/src/assets/annexe/Booki/image-booki.png"
+    },
+    "rating": "Visiter le github",
+    "link": "https://github.com/MaximeEsteves/booki",
+    "location": "Site web",
+    "equipments": ["HTML5", "CSS3"],
+    "tags": ["Hébergement", "Activités", "Découverte"]
+  },
+  {
+    "id": "a67ab8a5",
+    "titleCard": "Site portfolio Sophie Bluel",
+    "title": "Site portfolio Sophie Bluel",
+    "description": "Créez une page web dynamique avec JavaScript",
+    "descriptionBis": "Développement d’une page web dynamique pour le site d’une architecte d’intérieur en JavaScript, avec intégration d’une API. \nCréation de la page de présentation des travaux à partir du HTML fourni, gestion des événements utilisateurs et manipulation du DOM. Réalisation d’une page de connexion administrateur et d’une modale d’upload de médias, développées from scratch.\n Utilisation de Figma pour les maquettes, Visual Studio Code pour le développement et GitHub pour la gestion de version.",
+    "specifications": "HTML, CSS, Javascript, API.",
+    "cover": "/src/assets/annexe/Archiwebos/image-projet-archiwebos.png",
+    "pictures": [
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (1).png",
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (7).png",
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (6).png",
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (5).png",
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (4).png",
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (3).png",
+      "/src/assets/annexe/Archiwebos/image-archiwebos-1 (2).png"
+    ],
+    "host": {
+      "name": "Sophie Bluel",
+      "picture": "/src/assets/annexe/Archiwebos/image-sophie.png"
+    },
+    "rating": "Visiter le github",
+    "link": "https://github.com/MaximeEsteves/ArchiWebos",
+    "location": "Site web",
+    "equipments": ["HTML5", "CSS3", "JavaScript", "API"],
+    "tags": ["Portfolio", "Architecte"]
+  },
+  {
+    "id": "a67ab8a6",
+    "titleCard": "Présentation du site Menu Maker",
+    "title": "Présentation du site Menu Maker",
+    "description": "Planifiez le développement du site de votre client",
+    "descriptionBis": "Planification du développement d’un site web sans intervention directe dans le code. Analyse des maquettes, spécifications fonctionnelles et User Stories, suivie d’une veille technologique pour identifier les tendances pertinentes. \nRédaction des spécifications techniques et découpage des fonctionnalités en tâches. Organisation du projet via un tableau Kanban sur Notion, puis présentation de la solution technique.",
+    "specifications": "Feedly, Google Docs, Google Slide, Notion,",
+    "cover": "/src/assets/annexe/Qwenta/image-qwenta (2).png",
+    "pictures": [
+      "/src/assets/annexe/Qwenta/image-qwenta (2).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (3).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (4).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (5).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (6).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (7).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (8).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (9).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (10).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (11).png",
+      "/src/assets/annexe/Qwenta/image-qwenta (12).png"
+    ],
+    "host": {
+      "name": "Qwenta",
+      "picture": "/src/assets/annexe/Qwenta/image-logo-qwenta.png"
+    },
+    "rating": "Visiter le github",
+    "link": "https://github.com/MaximeEsteves/Menu-Maker-by-Qwenta",
+    "location": "Site web",
+    "equipments": ["Feedly", "Google Docs", "Google Slide", "Notion"],
+    "tags": ["Menu", "Partage", "Découverte"]
+  }
+]
