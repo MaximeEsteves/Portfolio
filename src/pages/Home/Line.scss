@@ -26,22 +26,22 @@
   left: 0%;
   z-index: 1;
 }
-@media (max-width: 768px) {
+@media (max-width: 975px) {
   .contenair-line {
-    width: 60%;
-    left: 25%;
+    width: 75%;
+    left: 15%;
   }
 
   .contenair-line-bis {
     margin: auto !important;
     width: 15%;
-    left: 15%;
+    left: 10%;
   }
 }
 @media (max-width: 425px) {
   .contenair-line {
-    width: 100%;
-    left: 0%;
+    width: 85%;
+    left: 5%;
   }
 
   .contenair-line-bis {

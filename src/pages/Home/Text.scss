@@ -33,35 +33,36 @@
     width: 100%;
   }
 }
+@media (max-width: 975px) {
+  .titre-text {
+    width: 80%;
+    margin: auto !important;
+  }
+
+  .paragraph-text {
+    width: 80%;
+    margin: auto !important;
+  }
+}
 @media (max-width: 768px) {
   .titre-home {
     margin: auto;
     margin-top: 180px;
     gap: 20px;
   }
-  .titre-text {
-    width: 70%;
-    margin: auto !important;
-  }
-
-  .paragraph-text {
-    width: 70%;
-    margin: auto !important;
-  }
 }
 @media (max-width: 425px) {
   .titre-home {
-    margin: auto;
-    margin-top: 180px;
-    gap: 20px;
+    margin-top: 40px;
   }
   .titre-text {
-    width: 100%;
+    width: 90%;
     margin: auto !important;
+    font-size: 30px;
   }
 
   .paragraph-text {
-    width: 100%;
+    width: 90%;
     margin: auto !important;
   }
 }

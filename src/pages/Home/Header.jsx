@@ -24,7 +24,9 @@ function Header() {
         </div>
 
         <div className="nav-link">
-          <Link to="/">Accueil</Link>
+          <Link to="/" className="btn-accueil">
+            Accueil
+          </Link>
           <a onClick={() => goToSection("projet")}>Projet</a>
           <a onClick={() => goToSection("contact")}>Contact</a>
           <a href="/public/CV_Maxime_ESTEVES.pdf">

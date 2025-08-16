@@ -1,5 +1,6 @@
 /* src/components/Annexe/Annexe.scss */
 .annexe {
+  margin: 0;
   z-index: 1;
   h3 {
     font-size: 28px;
@@ -9,23 +10,39 @@
 }
 
 .annexe-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 62px 0px;
   margin: auto;
-  justify-content: space-between;
+  justify-content: center;
   img {
     border-radius: 10px;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover !important;
     opacity: 0.9 !important;
   }
 }
-
-@media (max-width: 1306px) {
+@media (max-width: 1640px) {
+  .card-home {
+    width: 85%;
+  }
+}
+@media (max-width: 1313px) {
   .annexe-grid {
+    display: flex;
+    margin: auto;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 975px) {
+  .annexe {
+    width: 100%;
+  }
+  .annexe-grid {
   }
 }

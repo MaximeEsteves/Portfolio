@@ -81,10 +81,17 @@
     padding: 30px 0px;
   }
   .nav-link a {
-    font-size: 12px;
     margin: 0;
     margin-left: 26px;
     font-weight: 500;
+  }
+}
+@media (max-width: 561px) {
+  .nav-link a {
+    font-size: 18px;
+  }
+  .nav-link a svg {
+    font-size: 20px;
   }
 }
 @media (max-width: 425px) {
@@ -93,9 +100,25 @@
       display: none;
     }
   }
+  .nav-link a {
+    font-size: 16px;
+  }
 }
 @media (max-width: 320px) {
+  .nav-contenair {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .btn-accueil {
+    display: none;
+  }
   .home-logo {
     height: 36px;
+  }
+  .nav-link a {
+    font-size: 12px;
   }
 }

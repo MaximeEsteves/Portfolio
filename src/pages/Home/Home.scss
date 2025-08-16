@@ -36,16 +36,21 @@
     width: 100%;
   }
 }
-@media (max-width: 970px) {
+@media (max-width: 975px) {
   .home-container {
     width: 95%;
   }
-}
-@media (max-width: 768px) {
   .contact-wrapper {
     flex-direction: column;
     img {
       margin-top: 0px;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .contact-wrapper {
+    img {
+      margin-top: 20px;
     }
   }
 }

@@ -58,6 +58,12 @@ export default function Projet({ showAll, setShowAll }) {
 
   // Création de la timeline une seule fois (useLayoutEffect pour s'assurer après DOM paint)
   useLayoutEffect(() => {
+    // si l'écran est trop large → supprimer complètement la boule
+    if (window.innerWidth <= 1641) {
+      gsap.set(".red-ball", { autoAlpha: 0 }); // on cache direct
+      return; // on sort sans créer de timeline
+    }
+
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
@@ -65,11 +71,8 @@ export default function Projet({ showAll, setShowAll }) {
           start: "top top",
           end: "bottom bottom",
           scrub: 1,
-          // onUpdate est appelé à chaque scroll : on cache/la montre selon le temps de la timeline
           onUpdate: () => {
-            // time du label extraStart (sera défini plus bas)
             const extraStartTime = tl.labels.extraStart || 0;
-            // si on a atteint la partie "extra" et que l'utilisateur n'a pas cliqué "voir plus"
             if (!showAllRef.current && tl.time() >= extraStartTime) {
               gsap.set(".red-ball", { autoAlpha: 0 });
             } else {
@@ -85,14 +88,14 @@ export default function Projet({ showAll, setShowAll }) {
         y: "0vh",
         width: "1px",
         height: "1px",
-        autoAlpha: 1, // visible au départ
+        autoAlpha: 1,
       });
 
-      // 2) premier segment (agrandissement + déplacement)
+      // 2) premier segment
       tl.to(".red-ball", {
         x: "33vw",
         y: "0vh",
-        width: "3vw", // au lieu de 71px
+        width: "3vw",
         height: "3vw",
         boxShadow: "0 0 74px 47px #e93232",
         backgroundColor: "black",
@@ -100,7 +103,7 @@ export default function Projet({ showAll, setShowAll }) {
         duration: 0.1,
       });
 
-      // 3) première partie du motionPath (jusqu'à 181vh)
+      // 3) première partie du motionPath
       tl.to(".red-ball", {
         motionPath: {
           path: [
@@ -108,17 +111,17 @@ export default function Projet({ showAll, setShowAll }) {
             { x: "-5vw", y: "100vh" },
             { x: "50vw", y: "150vh" },
             { x: "45vw", y: "180vh" },
-            { x: "22vw", y: "198vh" }, // fin "normale"
+            { x: "22vw", y: "198vh" },
           ],
         },
         ease: "none",
         duration: 0.4,
       });
 
-      // label : début de la trajectoire "extra"
+      // label pour la partie extra
       tl.addLabel("extraStart");
 
-      // 4) deuxième partie (la trajectoire "extra" que tu veux cacher si showAll=false)
+      // 4) deuxième partie (extra)
       tl.to(".red-ball", {
         motionPath: {
           path: [
@@ -132,7 +135,6 @@ export default function Projet({ showAll, setShowAll }) {
         duration: 0.3,
       });
 
-      // expose tlRef pour d'éventuelles manipulations
       tlRef.current = tl;
     }, containerRef);
 

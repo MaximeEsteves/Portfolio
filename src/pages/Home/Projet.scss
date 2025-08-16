@@ -19,7 +19,6 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  //filter: blur(10px);
   z-index: 1 !important;
   pointer-events: none;
   background-color: #e93232;
@@ -72,50 +71,67 @@
   .card-home {
     width: 85%;
   }
+  .Description {
+    margin: 0;
+  }
+  .card-wrapper a {
+    margin: 0;
+  }
 }
 @media (max-width: 1350px) {
   .card-home {
-    width: 100%;
+    width: 100% !important;
   }
 }
-@media (max-width: 970px) {
+@media (max-width: 975px) {
+  .card-home > h2 {
+    text-align: center;
+  }
   .card-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: stretch; /* au lieu de center pour éviter le resserrage */
-    gap: 16px; /* optionnel, espace entre Card et Description */
+    align-items: stretch;
+    gap: 16px;
   }
 
-  /* Card en premier, prend toute la largeur */
   .card-wrapper > a,
   .card-wrapper > .Card {
     order: 2;
     width: 100%;
     max-width: none;
-    flex: 0 0 auto; /* pas de shrink */
+    flex: 0 0 auto;
   }
 
-  /* Description ensuite, s’étend correctement */
   .card-wrapper .Description {
     order: 1;
     width: 100%;
     max-width: none;
-    flex: 0 0 auto; /* pas de shrink */
+    flex: 0 0 auto;
   }
 
-  /* Styles internes du composant Description */
   .card-description {
-    width: 100%; /* ou 90% si tu veux un peu d’air */
-    max-width: 700px; /* optionnel : limite pour de longues lignes */
-    height: auto; /* <-- remplace ton height: 80% */
-    margin: 0 auto 50px; /* centre + espace bas comme tu voulais */
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 50px;
     box-sizing: border-box;
   }
 
-  /* Sécurité : les médias/images ne dépassent pas */
-  .card-description img,
-  .card-description video {
+  .card-description img {
     max-width: 100%;
     height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .card-home {
+    margin: 80px auto;
+  }
+}
+@media (max-width: 425px) {
+  .card-home {
+    margin: 40px auto;
+  }
+  .card-wrapper {
+    padding: 0px 0;
   }
 }

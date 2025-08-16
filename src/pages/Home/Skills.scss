@@ -102,9 +102,25 @@
     justify-content: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 975px) {
+  .skills-container {
+    justify-content: center;
+    width: 80%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
   .skills-text {
-    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
     flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .skills-container {
+    img {
+      width: 50px !important;
+      height: 50px !important;
+    }
   }
 }

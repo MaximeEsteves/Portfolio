@@ -18,7 +18,7 @@
       "name": "Kasa",
       "picture": "/annexe/Kasa/logo-kasa.svg"
     },
-    "rating": "Visiter le github",
+    "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/react-kasa",
     "location": "Site location",
     "equipments": ["REACT", "SCSS", "JSON"],
@@ -44,7 +44,7 @@
       "name": "Mon Vieux Grimoire",
       "picture": "/annexe/mon-vieux-grimoire/image-logo-mon-vieux-grimoire.png"
     },
-    "rating": "Visiter le github",
+    "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/P7-Dev-Web-livres",
     "location": "Site web",
     "equipments": ["NodeJS", "Express", "APIRest", "MongoDB", "Mongoose"],
@@ -69,7 +69,7 @@
       "name": "Nina Carducci",
       "picture": "/annexe/nina/image-camera.png"
     },
-    "rating": "Visiter le github",
+    "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/Nina-Carducci-Dev",
     "location": "Site web",
     "equipments": [
@@ -98,7 +98,7 @@
       "name": "Booki",
       "picture": "/annexe/Booki/image-booki.png"
     },
-    "rating": "Visiter le github",
+    "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/booki",
     "location": "Site web",
     "equipments": ["HTML5", "CSS3"],
@@ -125,7 +125,7 @@
       "name": "Sophie Bluel",
       "picture": "/annexe/Archiwebos/image-sophie.png"
     },
-    "rating": "Visiter le github",
+    "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/ArchiWebos",
     "location": "Site web",
     "equipments": ["HTML5", "CSS3", "JavaScript", "API"],
@@ -138,7 +138,7 @@
     "description": "Planifiez le développement du site de votre client",
     "descriptionBis": "Planification du développement d’un site web sans intervention directe dans le code. Analyse des maquettes, spécifications fonctionnelles et User Stories, suivie d’une veille technologique pour identifier les tendances pertinentes. \nRédaction des spécifications techniques et découpage des fonctionnalités en tâches. Organisation du projet via un tableau Kanban sur Notion, puis présentation de la solution technique.",
     "specifications": "Feedly, Google Docs, Google Slide, Notion,",
-    "cover": "/annexe/Qwenta/image-qwenta (2).png",
+    "cover": "/annexe/Qwenta/image-projet-qwenta.png",
     "pictures": [
       "/annexe/Qwenta/image-qwenta (2).png",
       "/annexe/Qwenta/image-qwenta (3).png",
@@ -156,7 +156,7 @@
       "name": "Qwenta",
       "picture": "/annexe/Qwenta/image-logo-qwenta.png"
     },
-    "rating": "Visiter le github",
+    "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/Menu-Maker-by-Qwenta",
     "location": "Site web",
     "equipments": ["Feedly", "Google Docs", "Google Slide", "Notion"],
