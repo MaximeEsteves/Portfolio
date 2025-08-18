@@ -7,27 +7,27 @@
 
     "descriptionBis": "Création d’un site e-commerce spécialisé dans la vente d’accessoires uniques faits main. \nLe propriétaire du site a la possibilité de se connecter pour ajouter, modifier ou supprimer des produits. Le client peut consulter les produits, les ajouter à ses favoris et dans son panier. \nIl peut également passer une commande à payer via Stripe. Aucune connexion pour le client n'est requise.",
     "specifications": "HTML, CSS, JavaScript, NodeJS, Express, MongoDB, Stripe, Render, Netlify.",
-    "cover": "/lesmidena/image-lesmidena-(1).png",
+    "cover": "/lesmidena/image-lesmidena-1.webp",
     "pictures": [
-      "/lesmidena/image-lesmidena-(1).png",
-      "/lesmidena/image-lesmidena (2).png",
-      "/lesmidena/image-lesmidena (3).png",
-      "/lesmidena/image-lesmidena (4).png",
-      "/lesmidena/image-lesmidena (5).png",
-      "/lesmidena/image-lesmidena (6).png",
-      "/lesmidena/image-lesmidena (7).png",
-      "/lesmidena/image-lesmidena (8).png",
-      "/lesmidena/image-lesmidena (9).png",
-      "/lesmidena/image-lesmidena (10).png",
-      "/lesmidena/image-lesmidena (11).png",
-      "/lesmidena/image-lesmidena (12).png",
-      "/lesmidena/image-lesmidena (13).png",
-      "/lesmidena/image-lesmidena (14).png",
-      "/lesmidena/image-lesmidena (15).png",
-      "/lesmidena/image-lesmidena (16).png"
+      "/lesmidena/image-lesmidena-1.webp",
+      "/lesmidena/image-lesmidena-2.webp",
+      "/lesmidena/image-lesmidena-3.webp",
+      "/lesmidena/image-lesmidena-4.webp",
+      "/lesmidena/image-lesmidena-5.webp",
+      "/lesmidena/image-lesmidena-6.webp",
+      "/lesmidena/image-lesmidena-7.webp",
+      "/lesmidena/image-lesmidena-8.webp",
+      "/lesmidena/image-lesmidena-9.webp",
+      "/lesmidena/image-lesmidena-10.webp",
+      "/lesmidena/image-lesmidena-11.webp",
+      "/lesmidena/image-lesmidena-12.webp",
+      "/lesmidena/image-lesmidena-13.webp",
+      "/lesmidena/image-lesmidena-14.webp",
+      "/lesmidena/image-lesmidena-15.webp",
+      "/lesmidena/image-lesmidena-16.webp"
     ],
     "host": {
-      "picture": "/lesmidena/logo-lesmidena.png"
+      "picture": "/lesmidena/logo-lesmidena.webp"
     },
     "rating": "Visiter le site",
     "link": "https://lesmidena.netlify.app",
@@ -52,23 +52,23 @@
     "description": "Création d’un site web pour l’entrainement sur des combats tactiques du jeu Dofus.",
     "descriptionBis": "Le Bon Entraîneur est une plateforme gratuite et interactive dédiée aux joueurs de Dofus souhaitant perfectionner leurs compétences en combat tactique. \n\nPensé pour les débutants comme pour les vétérans, le site propose des entraînements sans limite de temps, des conseils clairs et des guides stratégiques pour comprendre et maîtriser chaque mécanique de combat.\n Avec une approche ludique et pédagogique, Le Bon Entraîneur permet à chacun de progresser à son rythme, de tester des stratégies, et de s’améliorer sans pression.",
     "specifications": "HTML, CSS, JavaScript, PHP, MySQL, InfinityFree, FileZila.",
-    "cover": "/lebonentraineur/image-lebonentraineur (2).png",
+    "cover": "/lebonentraineur/image-lebonentraineur-2.webp",
     "pictures": [
-      "/lebonentraineur/image-lebonentraineur (2).png",
-      "/lebonentraineur/image-lebonentraineur (3).png",
-      "/lebonentraineur/image-lebonentraineur (4).png",
-      "/lebonentraineur/image-lebonentraineur (5).png",
-      "/lebonentraineur/image-lebonentraineur (6).png",
-      "/lebonentraineur/image-lebonentraineur (7).png",
-      "/lebonentraineur/image-lebonentraineur (8).png",
-      "/lebonentraineur/image-lebonentraineur (9).png",
-      "/lebonentraineur/image-lebonentraineur (10).png",
-      "/lebonentraineur/image-lebonentraineur (11).png",
-      "/lebonentraineur/image-lebonentraineur (1).png"
+      "/lebonentraineur/image-lebonentraineur-2.webp",
+      "/lebonentraineur/image-lebonentraineur-3.webp",
+      "/lebonentraineur/image-lebonentraineur-4.webp",
+      "/lebonentraineur/image-lebonentraineur-5.webp",
+      "/lebonentraineur/image-lebonentraineur-6.webp",
+      "/lebonentraineur/image-lebonentraineur-7.webp",
+      "/lebonentraineur/image-lebonentraineur-8.webp",
+      "/lebonentraineur/image-lebonentraineur-9.webp",
+      "/lebonentraineur/image-lebonentraineur-10.webp",
+      "/lebonentraineur/image-lebonentraineur-11.webp",
+      "/lebonentraineur/image-lebonentraineur-1.webp"
     ],
     "host": {
       "name": "Le bon entraineur",
-      "picture": "/lebonentraineur/logo_entraineur.png"
+      "picture": "/lebonentraineur/logo-entraineur.webp"
     },
     "rating": "Visiter le site",
     "link": "https://le-bon-entraineur.42web.io/",
@@ -91,20 +91,20 @@
     "description": "Création d’un site web pour guider et aider les joueurs du jeu Dofus.",
     "descriptionBis": "Le Bon Éleveur est une plateforme gratuite dédiée aux éleveurs de montures sur le jeu Dofus.\n\n Elle s’adresse aussi bien aux passionnés qu’aux débutants. Pensée pour accompagner les joueurs grâce à un guide, une encyclopédie et un logiciel de gestion, elle met à disposition des ressources pratiques, des conseils enrichis et un accompagnement bienveillant à chaque étape.",
     "specifications": "HTML, CSS, JavaScript, PHP, MySQL, InfinityFree, FileZila.",
-    "cover": "/leboneleveur/image-leboneleveur (8).png",
+    "cover": "/leboneleveur/image-leboneleveur-8.webp",
     "pictures": [
-      "/leboneleveur/image-leboneleveur (8).png",
-      "/leboneleveur/image-leboneleveur (7).png",
-      "/leboneleveur/image-leboneleveur (6).png",
-      "/leboneleveur/image-leboneleveur (5).png",
-      "/leboneleveur/image-leboneleveur (4).png",
-      "/leboneleveur/image-leboneleveur (3).png",
-      "/leboneleveur/image-leboneleveur (2).png",
-      "/leboneleveur/image-leboneleveur (1).png"
+      "/leboneleveur/image-leboneleveur-8.webp",
+      "/leboneleveur/image-leboneleveur-7.webp",
+      "/leboneleveur/image-leboneleveur-6.webp",
+      "/leboneleveur/image-leboneleveur-5.webp",
+      "/leboneleveur/image-leboneleveur-4.webp",
+      "/leboneleveur/image-leboneleveur-3.webp",
+      "/leboneleveur/image-leboneleveur-2.webp",
+      "/leboneleveur/image-leboneleveur-1.webp"
     ],
     "host": {
       "name": "Le bon éleveur",
-      "picture": "/leboneleveur/logo_eleveur.png"
+      "picture": "/leboneleveur/logo-eleveur.webp"
     },
     "rating": "Visiter le site",
     "link": "https://le-bon-eleveur.42web.io",
@@ -127,18 +127,18 @@
     "description": "Création d’un site web portfolio pour une artiste.",
     "descriptionBis": "Création d'un portfolio pour une artiste designer passionnée par la conception d'expériences numériques et esthétiques. \nVous y retrouverez ses différents projets, ainsi que son CV et ses informations de contact. Il s'agit du premier site HTML/CSS que j'ai réalisé.",
     "specifications": "HTML, CSS, FileZila.",
-    "cover": "/marineesteves/image-portfolio (6).png",
+    "cover": "/marineesteves/image-portfolio-6.webp",
     "pictures": [
-      "/marineesteves/image-portfolio (6).png",
-      "/marineesteves/image-portfolio (5).png",
-      "/marineesteves/image-portfolio (4).png",
-      "/marineesteves/image-portfolio (3).png",
-      "/marineesteves/image-portfolio (2).png",
-      "/marineesteves/image-portfolio (1).png"
+      "/marineesteves/image-portfolio-6.webp",
+      "/marineesteves/image-portfolio-5.webp",
+      "/marineesteves/image-portfolio-4.webp",
+      "/marineesteves/image-portfolio-3.webp",
+      "/marineesteves/image-portfolio-2.webp",
+      "/marineesteves/image-portfolio-1.webp"
     ],
     "host": {
       "name": "Site portfolio",
-      "picture": "/marineesteves/logo-maroue.png"
+      "picture": "/marineesteves/logo-maroue.webp"
     },
     "rating": "Visiter le site",
     "link": "marineesteves.go.yn.fr",

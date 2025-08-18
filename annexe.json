@@ -7,12 +7,12 @@
 
     "descriptionBis": "Réalisation du front-end d’une application web moderne en utilisant React et React Router pour créer une navigation fluide et réactive.\n Le travail a porté sur la construction de composants dynamiques, l’intégration des maquettes fournies et la gestion du routage entre les pages. Les données ont été simulées à partir d’un fichier JSON, et le projet a été initialisé avec Vite pour optimiser les performances et la configuration. \nL’environnement de développement reposait sur Node.js",
     "specifications": "React, SCSS, JSON",
-    "cover": "/annexe/Kasa/image-projet-kasa.png",
+    "cover": "/annexe/Kasa/image-projet-kasa.webp",
     "pictures": [
-      "/annexe/Kasa/image-kasa-1.png",
-      "/annexe/Kasa/image-kasa-2.png",
-      "/annexe/Kasa/image-kasa-3.png",
-      "/annexe/Kasa/image-kasa-4.png"
+      "/annexe/Kasa/image-kasa-1.webp",
+      "/annexe/Kasa/image-kasa-2.webp",
+      "/annexe/Kasa/image-kasa-3.webp",
+      "/annexe/Kasa/image-kasa-4.webp"
     ],
     "host": {
       "name": "Kasa",
@@ -31,18 +31,18 @@
     "description": "Développez le back-end d'un site de notation de livres.",
     "descriptionBis": "Création du back-end d’un site de notation de livres avec Express et MongoDB via Mongoose. \nMise en place d’une architecture MVC, développement des modèles de données et implémentation des opérations CRUD. Intégration d’un système d’authentification sécurisé, gestion et optimisation des images, calcul des notes moyennes et respect des bonnes pratiques du Green Code pour réduire l’empreinte écologique.",
     "specifications": "NodeJS, Express, APIRest, MongoDB, Mongoose",
-    "cover": "/annexe/mon-vieux-grimoire/image-projet-mon-vieux-grimoire.png",
+    "cover": "/annexe/mon-vieux-grimoire/image-projet-mon-vieux-grimoire.webp",
     "pictures": [
-      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (1).png",
-      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (6).png",
-      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (5).png",
-      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (4).png",
-      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (3).png",
-      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire (2).png"
+      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire-1.webp",
+      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire-6.webp",
+      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire-5.webp",
+      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire-4.webp",
+      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire-3.webp",
+      "/annexe/mon-vieux-grimoire/image-mon-vieux-grimoire-2.webp"
     ],
     "host": {
       "name": "Mon Vieux Grimoire",
-      "picture": "/annexe/mon-vieux-grimoire/image-logo-mon-vieux-grimoire.png"
+      "picture": "/annexe/mon-vieux-grimoire/image-logo-mon-vieux-grimoire.webp"
     },
     "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/P7-Dev-Web-livres",
@@ -57,17 +57,17 @@
     "description": "Débuggez et optimisez un site de photographe",
     "descriptionBis": "Optimisation du référencement, de la performance et de l’accessibilité d’un site en tant que développeur freelance.\n Analyse des problèmes via Lighthouse et Wave, élaboration de recommandations, puis mise en œuvre d’améliorations sur la vitesse de chargement, la structure du code et le SEO. \nCréation d’un rapport comparatif avant/après avec captures d’écran et explications des impacts sur les performances et l’accessibilité.",
     "specifications": "HTML, CSS, JavaScript, Lighthouse, Console, Google Docs",
-    "cover": "/annexe/nina/image-projet-nina.png",
+    "cover": "/annexe/nina/image-projet-nina-1.webp",
     "pictures": [
-      "/annexe/nina/image-nina-carducci (1).png",
-      "/annexe/nina/image-nina-carducci (5).png",
-      "/annexe/nina/image-nina-carducci (4).png",
-      "/annexe/nina/image-nina-carducci (3).png",
-      "/annexe/nina/image-nina-carducci (2).png"
+      "/annexe/nina/image-nina-carducci-1.webp",
+      "/annexe/nina/image-nina-carducci-5.webp",
+      "/annexe/nina/image-nina-carducci-4.webp",
+      "/annexe/nina/image-nina-carducci-3.webp",
+      "/annexe/nina/image-nina-carducci-2.webp"
     ],
     "host": {
       "name": "Nina Carducci",
-      "picture": "/annexe/nina/image-camera.png"
+      "picture": "/annexe/nina/image-camera.webp"
     },
     "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/Nina-Carducci-Dev",
@@ -89,14 +89,14 @@
     "description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
     "descriptionBis": "Création de la page d’accueil responsive d’une agence de voyage en HTML et CSS à partir de maquettes Figma (mobile, tablette, desktop). \nIntégration manuelle du code sans recours à l’outil de génération Figma, pour renforcer la maîtrise de la structure et du style. \nDéveloppement des compétences en design responsive afin d’assurer une expérience optimale sur tous les appareils.",
     "specifications": "HTML, CSS",
-    "cover": "/annexe/Booki/image-projet-booki.png",
+    "cover": "/annexe/Booki/image-projet-booki.webp",
     "pictures": [
-      "/annexe/Booki/image-booki-1.png",
-      "/annexe/Booki/image-booki-2.png"
+      "/annexe/Booki/image-booki-1.webp",
+      "/annexe/Booki/image-booki-2.webp"
     ],
     "host": {
       "name": "Booki",
-      "picture": "/annexe/Booki/image-booki.png"
+      "picture": "/annexe/Booki/image-booki.webp"
     },
     "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/booki",
@@ -111,19 +111,19 @@
     "description": "Créez une page web dynamique avec JavaScript",
     "descriptionBis": "Développement d’une page web dynamique pour le site d’une architecte d’intérieur en JavaScript, avec intégration d’une API. \nCréation de la page de présentation des travaux à partir du HTML fourni, gestion des événements utilisateurs et manipulation du DOM. Réalisation d’une page de connexion administrateur et d’une modale d’upload de médias, développées from scratch.\n Utilisation de Figma pour les maquettes, Visual Studio Code pour le développement et GitHub pour la gestion de version.",
     "specifications": "HTML, CSS, Javascript, API.",
-    "cover": "/annexe/Archiwebos/image-projet-archiwebos.png",
+    "cover": "/annexe/Archiwebos/image-projet-archiwebos.webp",
     "pictures": [
-      "/annexe/Archiwebos/image-archiwebos-1 (1).png",
-      "/annexe/Archiwebos/image-archiwebos-1 (7).png",
-      "/annexe/Archiwebos/image-archiwebos-1 (6).png",
-      "/annexe/Archiwebos/image-archiwebos-1 (5).png",
-      "/annexe/Archiwebos/image-archiwebos-1 (4).png",
-      "/annexe/Archiwebos/image-archiwebos-1 (3).png",
-      "/annexe/Archiwebos/image-archiwebos-1 (2).png"
+      "/annexe/Archiwebos/image-archiwebos-1-1.webp",
+      "/annexe/Archiwebos/image-archiwebos-1-7.webp",
+      "/annexe/Archiwebos/image-archiwebos-1-6.webp",
+      "/annexe/Archiwebos/image-archiwebos-1-5.webp",
+      "/annexe/Archiwebos/image-archiwebos-1-4.webp",
+      "/annexe/Archiwebos/image-archiwebos-1-3.webp",
+      "/annexe/Archiwebos/image-archiwebos-1-2.webp"
     ],
     "host": {
       "name": "Sophie Bluel",
-      "picture": "/annexe/Archiwebos/image-sophie.png"
+      "picture": "/annexe/Archiwebos/image-sophie.webp"
     },
     "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/ArchiWebos",
@@ -138,23 +138,23 @@
     "description": "Planifiez le développement du site de votre client",
     "descriptionBis": "Planification du développement d’un site web sans intervention directe dans le code. Analyse des maquettes, spécifications fonctionnelles et User Stories, suivie d’une veille technologique pour identifier les tendances pertinentes. \nRédaction des spécifications techniques et découpage des fonctionnalités en tâches. Organisation du projet via un tableau Kanban sur Notion, puis présentation de la solution technique.",
     "specifications": "Feedly, Google Docs, Google Slide, Notion,",
-    "cover": "/annexe/Qwenta/image-projet-qwenta.png",
+    "cover": "/annexe/Qwenta/image-projet-qwenta.webp",
     "pictures": [
-      "/annexe/Qwenta/image-qwenta (2).png",
-      "/annexe/Qwenta/image-qwenta (3).png",
-      "/annexe/Qwenta/image-qwenta (4).png",
-      "/annexe/Qwenta/image-qwenta (5).png",
-      "/annexe/Qwenta/image-qwenta (6).png",
-      "/annexe/Qwenta/image-qwenta (7).png",
-      "/annexe/Qwenta/image-qwenta (8).png",
-      "/annexe/Qwenta/image-qwenta (9).png",
-      "/annexe/Qwenta/image-qwenta (10).png",
-      "/annexe/Qwenta/image-qwenta (11).png",
-      "/annexe/Qwenta/image-qwenta (12).png"
+      "/annexe/Qwenta/image-qwenta-2.webp",
+      "/annexe/Qwenta/image-qwenta-3.webp",
+      "/annexe/Qwenta/image-qwenta-4.webp",
+      "/annexe/Qwenta/image-qwenta-5.webp",
+      "/annexe/Qwenta/image-qwenta-6.webp",
+      "/annexe/Qwenta/image-qwenta-7.webp",
+      "/annexe/Qwenta/image-qwenta-8.webp",
+      "/annexe/Qwenta/image-qwenta-9.webp",
+      "/annexe/Qwenta/image-qwenta-10.webp",
+      "/annexe/Qwenta/image-qwenta-11.webp",
+      "/annexe/Qwenta/image-qwenta-12.webp"
     ],
     "host": {
       "name": "Qwenta",
-      "picture": "/annexe/Qwenta/image-logo-qwenta.png"
+      "picture": "/annexe/Qwenta/image-logo-qwenta.webp"
     },
     "rating": "Visiter github",
     "link": "https://github.com/MaximeEsteves/Menu-Maker-by-Qwenta",

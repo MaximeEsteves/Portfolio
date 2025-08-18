@@ -8,7 +8,7 @@ function Reseaux() {
   return (
     <div className="contact-link">
       <a
-        href="public/CV_Maxime_ESTEVES.pdf"
+        href="/CV_Maxime_ESTEVES.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
