@@ -14,7 +14,7 @@ function Skills() {
           <div className="test">
             <FontAwesomeIcon icon={faGraduationCap} />
             <p>
-              Titre Pro Développeur Web 2025
+              Titre Pro Développeur Web - 2025
               <span className="sous-text">
                 OpenClassrooms (100% distanciel)
               </span>

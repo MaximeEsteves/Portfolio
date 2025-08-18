@@ -11,7 +11,7 @@ export default function Annexe({ visible }) {
       <h3>Mes projets OpenClassrooms</h3>
       <div className="annexe-grid">
         {annexeData.slice(0, 6).map((item) => (
-          <Link to={`/projet/${item.id}`} className="Card">
+          <Link key={item.id} to={`/projet/${item.id}`} className="Card">
             <Card picture={item.cover} width="355px" height="220px" />
           </Link>
         ))}

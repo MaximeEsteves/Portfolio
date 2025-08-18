@@ -7,7 +7,11 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function Reseaux() {
   return (
     <div className="contact-link">
-      <a href="cv-maxime-esteves.pdf" target="_blank" rel="noopener noreferrer">
+      <a
+        href="public/CV_Maxime_ESTEVES.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon icon={faFileInvoice} className="icon" />
       </a>
       <a
