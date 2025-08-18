@@ -10,7 +10,7 @@ function Skills() {
     <div className="skills-wrapper">
       <div className="skills-text">
         <div className="skills-text-diplome">
-          <h3>Diplome</h3>
+          <h2>Diplome</h2>
           <div className="test">
             <FontAwesomeIcon icon={faGraduationCap} />
             <p>
@@ -39,7 +39,7 @@ function Skills() {
         </div>
 
         <div className="skills-text-experiences">
-          <h3>Expérience</h3>
+          <h2>Expérience</h2>
           <div className="test">
             <FontAwesomeIcon icon={faBriefcase} />
             <p>

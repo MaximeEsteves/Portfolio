@@ -11,25 +11,39 @@ function Reseaux() {
         href="/CV_Maxime_ESTEVES.pdf"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Télécharger le CV"
+        title="Télécharger le CV"
       >
-        <FontAwesomeIcon icon={faFileInvoice} className="icon" />
+        <FontAwesomeIcon
+          icon={faFileInvoice}
+          className="icon"
+          aria-hidden="true"
+        />
       </a>
       <a
         href="https://www.linkedin.com/in/maxime-esteves-7a12b3225"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Profil LinkedIn de Maxime Esteves"
+        title="LinkedIn"
       >
         <FontAwesomeIcon icon={faLinkedin} className="icon" />
       </a>
-      <a href="mailto:maxime.esteves81@orange.fr">
+      <a
+        href="mailto:maxime.esteves81@orange.fr"
+        aria-label="Envoyer un email à Maxime Esteves"
+        title="Email"
+      >
         <FontAwesomeIcon icon={faEnvelope} className="icon" />
       </a>
       <a
         href="https://www.tiktok.com/@maximo_delavego"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Profil TikTok de Maxime Esteves"
+        title="TikTok"
       >
-        <FontAwesomeIcon icon={faTiktok} className="icon" />
+        <FontAwesomeIcon icon={faTiktok} className="icon" aria-hidden="true" />
       </a>
     </div>
   );

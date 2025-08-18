@@ -29,8 +29,14 @@ function Header() {
           </Link>
           <a onClick={() => goToSection("projet")}>Projet</a>
           <a onClick={() => goToSection("contact")}>Contact</a>
-          <a href="/CV_Maxime_ESTEVES.pdf">
-            <FontAwesomeIcon icon={faFileInvoice} />
+          <a
+            href="/CV_Maxime_ESTEVES.pdf"
+            aria-label="Télécharger le CV de Maxime Esteves"
+            title="Télécharger le CV"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faFileInvoice} aria-hidden="true" />
           </a>
         </div>
       </nav>
