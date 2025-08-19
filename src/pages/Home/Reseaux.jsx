@@ -4,6 +4,7 @@ import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function Reseaux() {
   return (
     <div className="contact-link">
@@ -44,6 +45,15 @@ function Reseaux() {
         title="TikTok"
       >
         <FontAwesomeIcon icon={faTiktok} className="icon" aria-hidden="true" />
+      </a>
+      <a
+        href="https://github.com/MaximeEsteves"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Profil Github de Maxime Esteves"
+        title="Github"
+      >
+        <FontAwesomeIcon icon={faGithub} className="icon" aria-hidden="true" />
       </a>
     </div>
   );
