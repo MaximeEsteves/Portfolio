@@ -47,7 +47,7 @@ function Reseaux() {
         <FontAwesomeIcon icon={faTiktok} className="icon" aria-hidden="true" />
       </a>
       <a
-        href="https://github.com/MaximeEsteves"
+        href="https://github.com/MaximeEsteves?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Profil Github de Maxime Esteves"
